@@ -8,4 +8,9 @@ class Person
     var int $age;
     var string $address;
     var string $country = "Indonesia"; // Default value
+
+    function sayHello(string $name)
+    {
+        echo "Hello, $name" . PHP_EOL;
+    }
 }
