@@ -1,8 +1,8 @@
 <?php
 require_once 'data/Person.php';
 
-$budi = new Person();
-$andi = new Person();
+$budi = new Person("Budiansyah", 20, 'Bandung');
+$andi = new Person("Andi Nugraha", 19, "Tangerang");
 
 // manipulasi properties budi
 $budi->name = "Budiansyah";
